@@ -1,0 +1,134 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	background-color: #dfe2e5;
+	height: 100%;
+	min-height: 100%;
+}
+
+
+header {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100px;
+	border-bottom: 1px solid #000;
+}
+
+header, footer {
+	background-color: #77a198;
+}
+
+.header-pic {
+	margin: 7px 30px;
+	display: inline-block;
+	float: left;
+	width: 80px;
+}
+
+.eris {
+	display: inline-block;
+	margin-top: 27px;
+}
+
+.tabs {
+	position: absolute;
+	top: 71px;
+	right: 0;
+}
+
+.tabs div {
+	box-sizing: border-box;
+	display: inline-block;
+	text-align: center;
+	margin-right: 40px;
+	padding: 5px;
+	width: 80px;
+	height: 30px;
+	border: 1px solid #000;
+	background-color: #648880;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+}
+
+#content {
+	margin-top: 120px;
+}
+
+img {
+	display: block;
+	width: 1000px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+p {
+	width: 800px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 140px;
+}
+
+.tabs .clear {
+	background-color: #dfe2e5;
+	border-bottom: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	border-top: 1px solid #000;
+}
+
+footer img {
+	width: 100px;
+	margin-bottom: 0;
+}
+
+/* menu */
+
+#breakfast, #lunch, #dinner {
+	float: left;
+	width: 270px;
+	margin-left: 20px;
+}
+
+#menus {
+	width: 900px;
+	margin: auto;
+}
+
+/* contact */
+
+table {
+	margin: auto;
+}
+
+tr {
+	padding-bottom: 20px;
+}
+
+th {
+	text-align: left;
+	padding-right: 30px;
+	padding-top: 20px;
+	vertical-align: top;
+}
+
+td {
+	text-align: left;
+	padding-top: 20px;
+}
+.contact {
+	text-align: center;
+}
+
+.map {
+	width: 200px;
+}
